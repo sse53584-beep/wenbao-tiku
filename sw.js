@@ -8,7 +8,7 @@
  *           保证断网也能打开"整页 = 全部数据"，实现完整离线刷题。
  */
 
-const CACHE = 'wenbao-v1';
+const CACHE = 'wenbao-v2';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 
 self.addEventListener('install', (event) => {
